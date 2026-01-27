@@ -1,0 +1,12 @@
+{
+  "name": "kizsl-marketplace",
+  "description": "Kizsl's Claude Code plugins",
+  "plugins": [
+    {
+      "name": "scallywag",
+      "version": "1.0.0",
+      "description": "Kizsl's complete Claude Code setup - 28 plugins, 12 skills, instant productivity",
+      "url": "https://github.com/kizsl/scallywag/releases/download/v1.0.0/scallywag-1.0.0.zip"
+    }
+  ]
+}

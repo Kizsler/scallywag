@@ -1,0 +1,27 @@
+{
+  "name": "scallywag",
+  "version": "1.0.0",
+  "description": "Kizsl's complete Claude Code setup - 28 plugins, 12 skills, instant productivity",
+  "bin": {
+    "scallywag": "./bin/scallywag.js"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "CLAUDE.md"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ai",
+    "plugins",
+    "skills",
+    "setup"
+  ],
+  "author": "kizsl",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kizsl/scallywag"
+  }
+}
