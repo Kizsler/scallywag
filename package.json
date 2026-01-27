@@ -1,6 +1,6 @@
 {
   "name": "scallywag",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Kizsl's complete Claude Code setup - 28 plugins, 12 skills, instant productivity",
   "bin": {
     "scallywag": "./bin/scallywag.js"
