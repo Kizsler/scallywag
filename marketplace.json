@@ -1,12 +1,23 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "kizsl-marketplace",
-  "description": "Kizsl's Claude Code plugins",
+  "description": "Kizsl's Claude Code plugins - games, art, design, frontend, video, and web development",
+  "owner": {
+    "name": "kizsl",
+    "email": "iwantfood543@gmail.com"
+  },
   "plugins": [
     {
       "name": "scallywag",
-      "version": "1.1.0",
       "description": "Kizsl's mega skill - games, art, design, frontend, video, and web development all in one",
-      "url": "https://github.com/Kizsler/scallywag/releases/download/v1.1.0/scallywag-1.1.0.zip"
+      "version": "1.2.0",
+      "author": {
+        "name": "kizsl",
+        "email": "iwantfood543@gmail.com"
+      },
+      "source": ".",
+      "category": "development",
+      "homepage": "https://github.com/Kizsler/scallywag"
     }
   ]
 }

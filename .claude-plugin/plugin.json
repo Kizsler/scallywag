@@ -1,9 +1,20 @@
 {
   "name": "scallywag",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Kizsl's mega skill - games, art, design, frontend, video, and web development all in one",
   "author": "kizsl",
   "skills": [
-    "skills/scallywag"
+    "skills/3d-games",
+    "skills/algorithmic-art",
+    "skills/brand-guidelines",
+    "skills/canvas-design",
+    "skills/frontend-design",
+    "skills/game-art",
+    "skills/game-developer",
+    "skills/godot-gdscript-patterns",
+    "skills/remotion-best-practices",
+    "skills/scallywag",
+    "skills/theme-factory",
+    "skills/web-artifacts-builder"
   ]
 }

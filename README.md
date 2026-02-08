@@ -1,54 +1,52 @@
-# 🏴‍☠️ Scallywag
+# Scallywag
 
-Kizsl's complete Claude Code setup. 28 plugins, 12 skills, instant productivity.
+Kizsl's complete Claude Code setup. 12 skills, 8 plugins, instant productivity.
 
 ## Install
 
 ```bash
-npx scallywag
+npx scallywag-claude
 ```
 
 That's it. One command.
 
 ## What You Get
 
-### Plugins (28)
-
-**Official:**
-- frontend-design, github, playwright, code-review, commit-commands, supabase, lua-lsp
-
-**Superpowers:**
-- superpowers, superpowers-developing-for-claude-code
-
-**Workflows:**
-- agent-orchestration, accessibility-compliance, api-scaffolding, api-testing-observability
-- application-performance, backend-api-security, backend-development, code-documentation
-- code-review-ai, codebase-cleanup, database-design, debugging-toolkit
-- deployment-strategies, frontend-mobile-development, game-development, javascript-typescript
-
-**Expo:**
-- expo-app-design, expo-deployment, upgrading-expo
-
-**Every:**
-- compound-engineering
-
 ### Skills (12)
 
-- 3d-games
-- algorithmic-art
-- brand-guidelines
-- canvas-design
-- frontend-design
-- game-art
-- game-developer
-- godot-gdscript-patterns
-- remotion-best-practices
-- theme-factory
-- web-artifacts-builder
+Copied directly to `~/.claude/skills/`:
+
+| Skill | What it does |
+|-------|-------------|
+| **3d-games** | 3D game dev - rendering, shaders, physics, cameras |
+| **algorithmic-art** | Algorithmic art generation with templates |
+| **brand-guidelines** | Brand identity and guidelines |
+| **canvas-design** | Canvas design with 30+ bundled fonts |
+| **frontend-design** | Production-grade frontend UI (anti-AI-slop) |
+| **game-art** | Game art creation |
+| **game-developer** | Game development patterns |
+| **godot-gdscript-patterns** | Godot engine / GDScript |
+| **remotion-best-practices** | Remotion video (animations, captions, transitions) |
+| **scallywag** | Core scallywag meta-skill |
+| **theme-factory** | Theme creation with 10 pre-built themes |
+| **web-artifacts-builder** | Web artifacts with shadcn components |
+
+### Plugins (8)
+
+Installed from the official Claude Code marketplace:
+
+- **frontend-design** - Production-grade frontend interfaces
+- **github** - GitHub MCP integration
+- **playwright** - Browser automation and testing
+- **code-review** - Automated code review
+- **commit-commands** - Git commit workflows
+- **supabase** - Database and auth
+- **superpowers** - Brainstorming, TDD, debugging
+
+Plus the **scallywag** plugin from the kizsl marketplace.
 
 ### Config
 
-- Model set to **Opus**
 - Global CLAUDE.md with rule templates
 
 ## Requirements
